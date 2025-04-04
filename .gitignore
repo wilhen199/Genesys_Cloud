@@ -1,0 +1,10 @@
+.env
+/Files
+*.xlsx
+*.csv
+*.json
+*.pyc
+__pycache__/
+/venv
+/Gen
+.vscode

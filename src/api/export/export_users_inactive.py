@@ -1,0 +1,6 @@
+import src.helpers.conexiones_api as conexiones_api
+
+df = conexiones_api.GetUsersInactive()
+df.to_excel("./Files/Users_Inactive.xlsx")
+print('Usuarios exportados')
+print('Cantidad de filas {} '.format(df.shape[0]))
